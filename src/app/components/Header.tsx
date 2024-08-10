@@ -12,7 +12,7 @@ export default function Header() {
               className="w-full flex-none text-xl text-white font-semibold p-6"
               href="/"
               aria-label="Brand">
-              To-Do List Generator
+              零日攻擊-getting ready (全家版)
             </Link>
           </div>
         </nav>

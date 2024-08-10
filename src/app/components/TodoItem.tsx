@@ -22,7 +22,12 @@ export const TodoItem: React.FC<TodoItemProps> = ({
       className={
         "flex items-center justify-between px-4 py-2 group" +
         (hasBorder ? " border-b" : "") // Conditionally adding a border class if hasBorder is true
-      }>
+      }
+      style={{
+        backgroundImage: "url('/src/app/zeroDay.webp')", // Adding the background image
+        backgroundSize: "cover", // Ensuring the image covers the entire div
+        backgroundPosition: "center", // Centering the background image
+      }}>
       <div className="flex items-center">
         <input
           className="h-5 w-5 text-blue-500"

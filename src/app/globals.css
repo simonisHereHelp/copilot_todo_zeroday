@@ -4,5 +4,10 @@
 
 body {
   height: 100vh;
-  background-color: rgb(16, 23, 42);
+  background-color: rgb(16, 23, 42); /* Fallback background color */
+  background-image: url('/src/app/zeroDay.webp');
+  background-size: cover;  /* Make sure the background image covers the entire viewport */
+  background-position: center;  /* Center the background image */
+  background-repeat: no-repeat;  /* Prevent the image from repeating */
+  background-attachment: fixed;  /* Keep the background image fixed when scrolling */
 }
