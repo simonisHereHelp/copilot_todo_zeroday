@@ -18,7 +18,7 @@ export default function Home() {
         <h1 className="text-2xl text-white font-bold mb-4">
           全家動員計劃 to-do list
         </h1>
-        <CopilotKit runtimeUrl="/api/copilotkit">
+        <CopilotKit runtimeUrl="https://copilot-run.vercel.app/copilotkit">
           <TodoList />
 
           <CopilotPopup
